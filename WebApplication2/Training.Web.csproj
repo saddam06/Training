@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\BootStrapForm\Models\" />
     <Folder Include="Areas\Products\Models\" />
   </ItemGroup>
 

@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Training.Web.Data;
 
 namespace Training.Web.Migrations
 {
     [DbContext(typeof(TrainingWebContext))]
-    partial class TrainingWebContextModelSnapshot : ModelSnapshot
+    [Migration("20220804082259_addingusersmigtration")]
+    partial class addingusersmigtration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -17,6 +17,8 @@ namespace Training.Web.Data
             : base(options)
         {
         }
+        public DbSet<Training.Web.Models.Users> Users { get; set; }
+        public DbSet<Training.Web.Models.UserResponds> UserResponds { get; set; }
 
        
 
